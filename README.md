@@ -1,6 +1,7 @@
 Instructions:
 
-iOS only. Also works only on device and not on simulator  
+a) iOS only.
+b) Only on device and not on simulator  
 
 
 1) Copy the JBroken.h and .m and put it in your source folder of your project.
@@ -8,4 +9,3 @@ iOS only. Also works only on device and not on simulator
 3) Methods available isAppStoreVersion , isAppCracked, firmwareVersion, isDeviceJailbroken
 
 Thanks
-Enjoy.
