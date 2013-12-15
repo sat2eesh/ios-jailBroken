@@ -6,6 +6,7 @@
 
 #import "JBroken.h"
 #include <sys/stat.h>
+#import <UIKit/UIKit.h>
 
 float firmwareVersion()
 {
