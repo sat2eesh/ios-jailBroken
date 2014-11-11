@@ -68,7 +68,7 @@ BOOL isDeviceJailbroken()
     
     //Symbolic link verification
     struct stat s;
-    if(lstat("/Applications", &s) || lstat("/var/stash/Library/Ringstones", &s) || lstat("/var/stash/Library/Wallpaper", &s)
+    if(lstat("/Applications", &s) || lstat("/var/stash/Library/Ringtones", &s) || lstat("/var/stash/Library/Wallpaper", &s)
        || lstat("/var/stash/usr/include", &s) || lstat("/var/stash/usr/libexec", &s)  || lstat("/var/stash/usr/share", &s) || lstat("/var/stash/usr/arm-apple-darwin9", &s))
     {
         if(s.st_mode & S_IFLNK){
