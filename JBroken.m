@@ -85,12 +85,11 @@ BOOL isDeviceJailbroken()
      encoding:NSUTF8StringEncoding error:&error];
     
 	if(nil==error){
-		//Writed
-		return YES;
-	} else {
+		//Wrote?: JB device
+		//cleanup what you wrote
 		[[NSFileManager defaultManager] removeItemAtPath:@"/private/test_jb.txt" error:nil];
+		return YES;
 	}
-    
 #endif
 	return NO;
 }
